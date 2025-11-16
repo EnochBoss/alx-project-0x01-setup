@@ -6,7 +6,7 @@ interface UsersPageProps {
   users: UserProps[];
 }
 
-const Users: React.FC<UsersPageProps> = ({ users }) => {
+const Users: React.FC<<UserProps>> = ({ users }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
       {users.map((user) => (
